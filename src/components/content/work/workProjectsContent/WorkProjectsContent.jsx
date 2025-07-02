@@ -54,12 +54,6 @@ export default function WorkProjectsContent() {
 				description: "Empresa innovadora que ofrece servicios calificados de ingeniería y construcción, realizamos consultorías, interventorías y supervisiones técnicas, diseños arquitectónicos, estructurales, eléctricos, hidrosanitarios y de redes.",
 				technologies: ["Orchard CMS", "PHP", "JQuery", "Dayvo custom tools"],
 				link: "https://barloventoco.com/"
-			},
-			{
-				title: "Tic Energy",
-				description: "Tic Energy es la solución frente a las necesidades del campo de la ingeniería eléctrica convencional, energía de fuentes renovables y redes de comunicaciones necesarias para el desarrollo parcial o total de proyectos en el campo industrial, comercial e institucional tanto en el sector público como en el sector privado.",
-				technologies: ["Orchard CMS", "PHP", "JQuery", "Dayvo custom tools"],
-				link: "https://ticenergy.com.co/"
 			}
 		]
 	},
