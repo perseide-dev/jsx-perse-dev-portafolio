@@ -32,10 +32,7 @@
     color: var(--color-White);
 }
 
-.bioContactContent__icons{
-    display: flex;
-    gap: 1rem;
-}
+
 @media(max-width: 912px){
     .BioContactContent{
         background-size: cover;

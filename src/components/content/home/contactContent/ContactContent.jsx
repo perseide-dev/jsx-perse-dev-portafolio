@@ -3,7 +3,7 @@ import "./ContactContent.css"
 //util
 import { TypeBody2, TypeH5, TypeSubTitle1 } from "@cu/fonts/Type";
 import { ContainerCard, ContainerSection } from "@cu/containers/Containers";
-import { IconFigma, IconGitHub, IconInstagram, IconLinkedIN } from "@cu/icons/Icons";
+import ContactIconCollection from "@cu/interface/ui/ContactIconCollection";
 
 export default function ContactContent() {
     return (
@@ -12,12 +12,7 @@ export default function ContactContent() {
                 <ContainerCard className="contactContent__card" animation={"fade-up"} duration={"2000"}>
                     <TypeSubTitle1>Redes Sociales</TypeSubTitle1>
                     <TypeBody2>Ponte en contacto conmigo a través de las redes sociales.</TypeBody2>
-                    <div className="contactContent__icons">
-                        <IconGitHub/>
-                        <IconFigma/>
-                        <IconInstagram/>
-                        <IconLinkedIN/>
-                    </div>
+                    <ContactIconCollection/>
                 </ContainerCard>
                 <div className="contactContent__quote" data-aos="fade-left" data-aos-duration="2000">
                     <TypeH5>
