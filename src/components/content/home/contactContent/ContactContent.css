@@ -36,10 +36,6 @@
     gap: 1rem;
 }
 
-.contactContent__icons{
-    display: flex;
-    gap: 1rem;
-}
 
 .contactContent__quote{
     flex: 2;
