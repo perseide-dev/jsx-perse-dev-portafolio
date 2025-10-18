@@ -22,7 +22,8 @@ export default function LandingNav() {
 				<div className="landingNav__brand">
 					<img
 						src={brand}
-
+						alt="Perseide.dev Logo"
+						loading="lazy"
 					>
 					</img>
 				</div>
